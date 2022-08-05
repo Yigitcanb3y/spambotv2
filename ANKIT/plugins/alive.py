@@ -5,7 +5,7 @@ from ANKIT import BOT_USERS, BOT_USER, ALIVE_NAME
 import asyncio
 currentversion = "ONLY ONE"
 
-ALIVE_NAME = str(ALIVE_NAME) if ALIVE_NAME else "MİRACBEY✓"
+ALIVE_NAME = str(ALIVE_NAME) if ALIVE_NAME else "yigitcanbey✓"
 import os
 xnkit786 = os.environ.get("PM_IMG", None)
 if not xnkit786:
@@ -17,11 +17,11 @@ pm_caption += "• Cᴜʀʀᴇɴᴛ Bʀᴀɴᴄʜ : `BEYLERBEYİ`\n"
 pm_caption += f"• Wᴏʀᴋᴇʀ Oғ : {ALIVE_NAME} \n"
 pm_caption += "• Hᴇʀᴏᴋᴜ Dᴀᴛᴀʙᴀsᴇ : ᴀᴡs-ᴡᴏʀᴋɪɴɢ ᴘʀᴏᴘᴇʀʟʏ\n\n"
 pm_caption += "• Cᴏᴘʏʀɪɢʜᴛ ϐγ : ©ᴀɴᴋɪᴛ ᴋᴜᴍᴀʀ™\n\n"
-pm_caption += "• Mᴀᴅᴇ ʙʏ : MİRACBEY✓🇹🇷"
+pm_caption += "• Mᴀᴅᴇ ʙʏ : yigitcanbey✓🇹🇷"
 
 
 @worker.on(events.NewMessage(incoming=True, pattern="^/alive"))
 async def alive(event):
   if not str(event.sender_id) in BOT_USERS:
-    return await event.reply("ᴋɪᴅ ʏᴏᴜ ʜᴀᴠᴇ ɴᴏ ᴄᴏɴᴛʀᴏʟ ᴏɴ ᴍᴇ (sᴇᴅ)")
+    return await event.reply("Sen sahibim değilsin !")
   await worker.send_file(event.chat_id, xnkit786, caption=pm_caption)
