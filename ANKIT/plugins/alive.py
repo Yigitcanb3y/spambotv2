@@ -13,10 +13,10 @@ if not xnkit786:
 pm_caption = "• ᴀɴᴋɪᴛ Sᴘᴀᴍᴍᴇʀ ɪs: Oɴʟɪɴᴇ\n\n"
 pm_caption += "• Pʏᴛʜᴏɴ: 3.9.7 \n"
 pm_caption += "• Dᴀᴛᴀʙᴀsᴇ Sᴛᴀᴛᴜs:  Fᴜɴᴄᴛɪᴏɴᴀʟ\n"
-pm_caption += "• Cᴜʀʀᴇɴᴛ Bʀᴀɴᴄʜ : `BEYLERBEYİ`\n"
+pm_caption += "• Cᴜʀʀᴇɴᴛ Bʀᴀɴᴄʜ : `yigitcanb3y`\n"
 pm_caption += f"• Wᴏʀᴋᴇʀ Oғ : {ALIVE_NAME} \n"
 pm_caption += "• Hᴇʀᴏᴋᴜ Dᴀᴛᴀʙᴀsᴇ : ᴀᴡs-ᴡᴏʀᴋɪɴɢ ᴘʀᴏᴘᴇʀʟʏ\n\n"
-pm_caption += "• Cᴏᴘʏʀɪɢʜᴛ ϐγ : ©ᴀɴᴋɪᴛ ᴋᴜᴍᴀʀ™\n\n"
+pm_caption += "• Cᴏᴘʏʀɪɢʜᴛ ϐγ : @yigitcanb3y\n\n"
 pm_caption += "• Mᴀᴅᴇ ʙʏ : yigitcanbey✓🇹🇷"
 
 
