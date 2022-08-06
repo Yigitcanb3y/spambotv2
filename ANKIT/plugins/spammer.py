@@ -5,8 +5,8 @@ from asyncio import wait
 from telethon import events
 LOGGER_GROUP = int(os.environ.get("LOGGER_GROUP", None))
 import re
-abcd = "@beylerbeyiniz@KadimmTayfaa"
-x = "@beylerbeyiniz"
+abcd = "@yigitcanb3y@redbyteteam"
+x = "@yigitcanb3y"
 king = [2127221861]
 
 @worker.on(events.NewMessage(incoming=True, pattern="/bigspam"))
