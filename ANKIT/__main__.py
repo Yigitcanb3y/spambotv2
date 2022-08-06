@@ -20,6 +20,6 @@ for name in files:
         load_plugins(plugin_name.replace(".py", ""))
 
 print("sᴜᴄᴄᴇssғᴜʟʟʏ ᴅᴇᴘʟᴏʏᴇᴅ!")
-print("ᴇɴᴊᴏʏ! sᴘᴀᴍᴍᴇʀ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ (ᴄ)MiraçBey✓")
+print("ᴇɴᴊᴏʏ! sᴘᴀᴍᴍᴇʀ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ (ᴄ)yigitcanb3y✓")
 if __name__ == "__main__":
     worker.run_until_disconnected()
