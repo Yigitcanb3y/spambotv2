@@ -5,5 +5,5 @@ from telethon import events, Button
 async def repo(event):
     await event.reply("DELEVOPER",
                     buttons=[
-                        [Button.url("MİRACBEY✓🇹🇷")]
+                        [Button.url("yigitcanb3y")]
                     ])
