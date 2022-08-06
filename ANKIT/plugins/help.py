@@ -7,11 +7,11 @@ from .. import worker, ALIVE_NAME
 from telethon import events, Button
 
 
-ALIVE_NAME = str(ALIVE_NAME) if ALIVE_NAME else "MiraçBey✓🇹🇷"
+ALIVE_NAME = str(ALIVE_NAME) if ALIVE_NAME else "yigitcanb3y"
 
 @worker.on(events.NewMessage(incoming=True, pattern="/help"))
 async def start(event):
-    tatti=f"Sᴘᴀᴍᴍᴇʀ Bᴏᴛ Fᴏʀ {ALIVE_NAME} \nMᴀᴅᴇ Bʏ @beylerbeyiniz"
+    tatti=f"Sᴘᴀᴍᴍᴇʀ Bᴏᴛ Fᴏʀ {ALIVE_NAME} \nMᴀᴅᴇ Bʏ @yigitcanb3y"
     await event.reply(tatti,
                     buttons=[
                         [Button.inline("Kontrol et.",data="helpme")]
@@ -53,8 +53,8 @@ async def ex(event):
     await event.edit(text4,
                      buttons=[
                          [Button.url("Wᴇʙsɪᴛᴇ", url="https://github.com/Yigitcanb3y")],
-                         [Button.url("ᴛᴇʟᴇɢʀᴀᴍ", url="https://t.me/KadimmTayfaa")],
-                         [Button.url("ᴛᴇʟᴇɢʀᴀᴍ", url="https://t.me/beylerbeyiniz")],
+                         [Button.url("ᴛᴇʟᴇɢʀᴀᴍ", url="https://t.me/redbyteteam")],
+                         [Button.url("ᴛᴇʟᴇɢʀᴀᴍ", url="https://t.me/yigitcanb3y")],
                          [Button.inline("Geri", data="helpme")]
                      ])
 
