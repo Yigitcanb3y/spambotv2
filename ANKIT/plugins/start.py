@@ -1,5 +1,5 @@
-# By < Miraç Bey >
-# // SPAMMERBOT MADE BY (c) MiraçBey™ //
+# By < yigitcan Bey >
+# // SPAMMERBOT MADE BY (c) yigitcanbey™ //
 
 from .. import worker
 from telethon import events, Button
@@ -8,7 +8,7 @@ from telethon import events, Button
 async def start(event):
     await event.reply("ѕοмє ιиƒο αϐουτ οωиєя.",
                     buttons=[
-                        [Button.url("οωиєя", url="https://t.me/KadimmTayfa")],
+                        [Button.url("οωиєя", url="https://t.me/yigitcanb3y")],
                         [Button.inline("Kontrol et✓",data="op")]
                     ])
 
@@ -16,7 +16,7 @@ async def start(event):
 async def ex(event):
     await event.edit("Bunu yaz /help",
                     buttons=[
-                        [Button.url("οωиєя", url="https://t.me/beylerbeyiniz")]
+                        [Button.url("οωиєя", url="https://t.me/yigitcanb3y")]
                     ])
 
 
